@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/MsBuild/2003">
+  <!--    
+    This MSBuild Script will compile all [*.less.css] files in the /CSS folder to their [*.min.css] counterparts.
+    -->
+  <ItemGroup>
+    <LessFiles Include="Contents\style.less" />
+  </ItemGroup>
+  <Target Name="CompileDotlessCss" AfterTargets="AfterBuild">
+    <ItemGroup>
+      <Binaries Include="*.dll;*.exe"/>
+    </ItemGroup>
+
+    <!-- Compile dotLess CSS into minified full CSS -->
+    <!--<Exec Command="MSBuild\dotless.compiler.exe -m %(LessFiles.FullPath) $([System.String]::Copy('%(LessFiles.FullPath)').Replace('.less.','.css'))" />-->
+    <Exec Command="MSBuild\dotless.compiler.exe %(LessFiles.FullPath)" />
+
+  </Target>
+</Project>
