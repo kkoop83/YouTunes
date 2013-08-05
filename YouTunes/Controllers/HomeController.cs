@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace YouTunes.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         //
         // GET: /Home/
@@ -15,6 +15,5 @@ namespace YouTunes.Controllers
         {
             return View();
         }
-
     }
 }

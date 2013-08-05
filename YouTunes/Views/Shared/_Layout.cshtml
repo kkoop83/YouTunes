@@ -9,13 +9,25 @@
     <meta name="viewport" content="width=device-width" />
     <title>_Layout</title>
 
-    <link rel="stylesheet" type="text/css" href="~/Contents/Style.css" />
+    <link rel="stylesheet" href="~/Contents/Style.css" />
+    <script src="~/Scripts/jquery-2.0.2.min.js"></script>
+    <script src="~/Scripts/Youtube.js"></script>
+    <script src="~/Scripts/YoutubePlayer.js"></script>
 </head>
 <body>
-    <div class="container">
+     @Html.Partial("_Queue")
+
+    <div id="container">
         <nav>
             <a href="home">Home</a>
+            @Html.Partial("_Search")
         </nav>
+        
+        <section id="playerContainer">
+            <div id="player"></div>
+        </section>
+
+        <div id="SearchResults"></div>
 
         @RenderBody()
     </div>

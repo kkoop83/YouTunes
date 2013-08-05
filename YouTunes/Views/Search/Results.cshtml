@@ -1,0 +1,15 @@
+﻿@model IEnumerable<YouTunes.Models.VideoModel>
+
+
+@if (Model != null)
+{
+    foreach (var result in Model)
+    {
+        <div>@result.VideoTitle</div>
+        <button onclick="queueVideo('@result.VideoId', '@result.VideoTitle')">Queue Video</button>
+    }
+}
+else
+{
+    <div>Nothing found</div>   
+}

@@ -1,0 +1,20 @@
+﻿@model IEnumerable<YouTunes.Models.VideoModel>
+
+
+<section id="Queue">
+    <label>QUEUE</label>
+    @if (Model != null)
+    {
+        <ul>
+            @foreach (var video in Model)
+            {
+                <li id="@video.VideoId">
+                    <div>@video.VideoTitle</div>
+                    <button onclick="playVideo('@video.VideoId')">Play Video</button>
+                </li>
+            }
+
+        </ul>
+    }
+
+</section>

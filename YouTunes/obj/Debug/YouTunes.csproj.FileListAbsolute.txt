@@ -26,3 +26,6 @@ C:\Users\ScottR\Documents\GitHub\YouTunes\YouTunes\obj\Debug\YouTunes.csprojReso
 C:\Users\ScottR\Documents\GitHub\YouTunes\YouTunes\obj\Debug\YouTunes.dll
 C:\Users\ScottR\Documents\GitHub\YouTunes\YouTunes\obj\Debug\YouTunes.pdb
 C:\Users\ScottR\Documents\GitHub\YouTunes\YouTunes\bin\dotless.Core.dll
+C:\Users\ScottR\Documents\GitHub\YouTunes\YouTunes\bin\Google.GData.Client.dll
+C:\Users\ScottR\Documents\GitHub\YouTunes\YouTunes\bin\Google.GData.Extensions.dll
+C:\Users\ScottR\Documents\GitHub\YouTunes\YouTunes\bin\Google.GData.YouTube.dll

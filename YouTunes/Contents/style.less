@@ -1,2 +1,30 @@
 ﻿@import "variables.less";
 @import "common.less";
+
+body {
+
+}
+
+nav {
+    background-color: @dark-nav;
+}
+
+button {
+    border: solid 1px @dark-buttonBorder;
+    background: @dark-buttonBackground;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #288f00), color-stop(1, #68bb00));
+    background: -ms-linear-gradient(bottom, #288f00, #68bb00);
+    background: -moz-linear-gradient(center bottom, #288f00 0%, #68bb00 100%);
+    -webkit-box-shadow: inset 0 0 0 1px #c5e800;
+    -moz-box-shadow: inset 0 0 0 1px #c5e800;
+    box-shadow: inset 0 0 0 1px #c5e800;
+}
+
+button:active,
+button:hover {
+    border: solid 1px #7bdd1d;
+    background: #5ecd0c;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #36c200), color-stop(1, #84ee00));
+    background: -ms-linear-gradient(bottom, #36c200, #84ee00);
+    background: -moz-linear-gradient(center bottom, #36c200 0%, #84ee00 100%);
+}
