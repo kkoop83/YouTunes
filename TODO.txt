@@ -1,0 +1,24 @@
+1. Make the site look badass
+
+2. Make search button the default
+
+3. Add 'goto youtube' link for playing video
+
+4. Rename 'SearchResults' to 'Content'
+	a. Have all pages render in the 'Content' section
+	b. Keep her ajax-y
+
+5. Add more search functionality
+	a. search filters, etc...
+
+6. Add login features
+	a. integrate with youtube login
+
+7. Add customer skins
+	a. have a few default skins
+	b. make customizable skins
+
+8. Add broadcasting/sharing playlists
+	a. Multiple people listening to the same playlist at the same time
+		I. People can request adding videos
+		II. Probably need moderators
