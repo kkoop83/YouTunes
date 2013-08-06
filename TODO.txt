@@ -1,4 +1,6 @@
 1. Make the site look badass
+	a. Top bar always visible
+	b. Search textbox watermark
 
 2. Make search button the default
 
@@ -14,7 +16,7 @@
 6. Add login features
 	a. integrate with youtube login
 
-7. Add customer skins
+7. Add skins
 	a. have a few default skins
 	b. make customizable skins
 
@@ -22,3 +24,10 @@
 	a. Multiple people listening to the same playlist at the same time
 		I. People can request adding videos
 		II. Probably need moderators
+
+---------
+--IDEAS--
+---------
+Video promos on home page?
+
+Top broadcasts listed on home page?

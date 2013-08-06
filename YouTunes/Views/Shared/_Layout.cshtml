@@ -7,7 +7,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>_Layout</title>
+    <title>YouTunes</title>
 
     <link rel="stylesheet" href="~/Contents/Style.css" />
     <script src="~/Scripts/jquery-2.0.2.min.js"></script>
@@ -15,17 +15,24 @@
     <script src="~/Scripts/YoutubePlayer.js"></script>
 </head>
 <body>
-     @Html.Partial("_Queue")
-
     <div id="container">
         <nav>
             <a href="home">Home</a>
             @Html.Partial("_Search")
         </nav>
-        
+          
         <section id="playerContainer">
             <div id="player"></div>
+            
+            <div>
+                <button id="play" onclick="play()">Play</button>
+                <button id="pause" onclick="pause()">Pause</button>
+                <button id="Previous" onclick="previous()">Previous</button>
+                <button id="skip" onclick="skip()">Skip</button>
+            </div>
         </section>
+        
+        @Html.Partial("_Queue")
 
         <div id="SearchResults"></div>
 
